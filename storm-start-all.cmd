@@ -1,0 +1,4 @@
+@echo off 
+setlocal enabledelayedexpansion
+pushd C:\Spark\kafka\kafka_2.11-2.4.0\config & start "zk-server" cmd.exe /K "zookeeper-server-start.bat zookeeper.properties" & start "storm-nimbus" cmd.exe /K "storm nimbus" & start "storm-supervisor" cmd.exe /K "storm supervisor" & start "storm-ui" cmd.exe /K "storm ui" & timeout 15 & pushd C:\Spark\kafka\kafka_2.11-2.4.0\config  & start "kafka-server" cmd.exe /K "kafka-server-start.bat server.b1.properties" & pushd C:\Users\user\Desktop & start "KafkaTwitterProducer" cmd.exe /K "java -jar KafkaTwitterProducer.jar" & timeout 15 & start "stormtwitter" cmd.exe /K ""C:\Program Files\Java\jdk1.8.0_241\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\lib\idea_rt.jar=50183:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\user\AppData\Local\Temp\classpath1887231308.jar com.example.StormTwitter"
+endlocal 
