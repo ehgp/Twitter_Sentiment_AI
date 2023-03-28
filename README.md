@@ -40,16 +40,22 @@ go to utilities tab and click on 'Browse File System'
 
 ## Screenshots
 
+### Architecture
 [![Architecture](img/Architecture.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/Architecture.PNG)
 
+### HDFS Folder
 [![HDFS Folder](img/creating%20hdfs%20folder.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/creating%20hdfs%20folder.PNG)
 
+### Data Formatting
 [![Data Formatting](img/dataformat.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/dataformat.PNG)
 
+### Kafka Twitter Producer
 [![Kafka Twitter Producer](img/KafkaTwitterProducer.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/KafkaTwitterProducer.PNG)
 
+### Kafka Twitter Producer Alt
 [![Kafka Twitter Producer1](img/KafkaTwitterProducer1.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/KafkaTwitterProducer1.PNG)
 
+### Storm Twitter
 [![Storm Twitter](img/StormTwitter.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/StormTwitter.PNG)
 
 ## Authors
