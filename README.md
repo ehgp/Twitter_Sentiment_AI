@@ -52,9 +52,6 @@ go to utilities tab and click on 'Browse File System'
 ### Kafka Twitter Producer
 [![Kafka Twitter Producer](img/KafkaTwitterProducer.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/KafkaTwitterProducer.PNG)
 
-### Kafka Twitter Producer Alt
-[![Kafka Twitter Producer1](img/KafkaTwitterProducer1.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/KafkaTwitterProducer1.PNG)
-
 ### Storm Twitter
 [![Storm Twitter](img/StormTwitter.PNG)](https://github.com/ehgp/Twitter_Sentiment_AI/tree/master/img/StormTwitter.PNG)
 
