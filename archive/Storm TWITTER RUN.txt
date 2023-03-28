@@ -1,0 +1,5 @@
+#WORKING CODE start zookeeper
+cd C:\Spark\kafka\kafka_2.11-2.4.0\config
+zookeeper-server-start.bat zookeeper.properties
+cd C:\Users\user\Desktop
+java -jar StormTwitter.jar

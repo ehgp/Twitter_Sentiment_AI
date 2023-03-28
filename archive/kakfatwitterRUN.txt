@@ -1,0 +1,19 @@
+
+#WORKING CODE
+cd C:\Spark\kafka\kafka_2.11-2.4.0\config
+zookeeper-server-start.bat zookeeper.properties
+kafka-server-start.bat server.b1.properties
+cd C:\Users\user\Desktop
+java -jar KafkaTwitterProducer.jar
+
+
+
+#COMMANDS
+kafka-topics.bat --list --zookeeper localhost:2181
+kafka-topics.bat --delete --topic Twitter-API --zookeeper localhost:2181
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic Twitter-API
+kafka-topics.bat --describe --zookeeper localhost:2181 --topic Twitter-API
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic Twitter-API --from-beginning
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic sample_test
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic sample_test --from-beginning
+kafka-console-producer.bat --broker-list  localhost:9092 --topic sample_test

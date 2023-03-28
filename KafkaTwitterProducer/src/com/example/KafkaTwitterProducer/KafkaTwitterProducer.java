@@ -45,10 +45,10 @@ public class KafkaTwitterProducer {
     public static void main(String[] args) throws Exception {
         final LinkedBlockingQueue<Status> queue = new LinkedBlockingQueue<Status>(1000);
 
-        String consumerKey = "X";
-        String consumerSecret = "X";
-        String accessToken = "X";
-        String accessTokenSecret = "X";
+        String consumerKey = "UvDagOJuMnxEqsuhTNaTFq9V6";
+        String consumerSecret = "XbSQopO4kdJHZrdETrupDZMzLLZ7FwbNhWYMOc6vcK3rjrgKYt";
+        String accessToken = "2255042673-RYwCsd6eoksoNq0b8hi1h7R7g5VIlg4zIDB9Xj3";
+        String accessTokenSecret = "FUwdobwnh3Eo51KVxrLktZhiYXVSqQ1Lz4iitjRkOxmO5";
         String topicName = "Twitter-API";
         String[] arguments = args.clone();
         String[] keyWords = {"#AI", "#MachineLearning", "#ArtificialIntelligence"};

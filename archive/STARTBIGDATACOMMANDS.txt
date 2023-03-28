@@ -1,0 +1,27 @@
+HADOOP
+start-all.cmd
+stop-all.cmd
+Create Folders for processing data
+hdfs dfs -ls /
+hdfs dfs -mkdir /twitter_realtime_data/tweets/score
+hdfs dfs -mkdir /twitter_realtime_data/tweets/text
+hdfs dfs -mkdir /twitter_data
+KAFKA & STORM & ZOOKEEPER
+storm-start-all.cmd
+FLUME
+flume-ng.cmd
+PYSPARK
+in anaconda prompt pyspark
+include
+in environment vars
+Copy bin folder from
+C:\Spark\spark-3.0.0-preview2-bin-hadoop2.7\bin\
+to
+C:\Spark\spark-3.0.0-preview2-bin-hadoop2.7\etc\hadoop\bin\winutils.exe
+create new environment variable for WINUTILS
+PYSPARK_SUBMIT_ARGS = --master local[2] pyspark-shell
+RUN TWITTER API REALTIME
+cd C:\Users\user\Desktop
+java -jar KafkaTwitterProducer.jar
+java -jar StormTwitter.jar
+
